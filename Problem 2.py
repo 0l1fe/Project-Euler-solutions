@@ -11,10 +11,12 @@ def fibonacci(n) :
     else:
         return(fibonacci(n - 1) + fibonacci(n - 2))
 
+limit = 4000000		
+
 sum = 0
 n = 1
 
-while fibonacci(n) <= 4000000 :
+while fibonacci(n) <= limit :
     if fibonacci(n) % 2 == 0 :
         sum += fibonacci(n)
     n += 1

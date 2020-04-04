@@ -15,7 +15,7 @@ def isPrime(n):
 
 number = 600851475143
 
-n = 1
+n = 1 a
 
 while n < number:
     if number % n == 0:
